@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background-image: linear-gradient(to right, rgba(47, 62, 110, 0.701), 
+  rgba(39, 56, 107, 0.7)), 
+  url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: cover;
+}
+/* ---------- NAVBAR ------------ */
+
+.navbar{
+  padding: 30px 20px;
+}
+
+/*making all the div elements inside navbar class, element as inline*/
+.navbar div{ 
+  display: inline-block;        
+  vertical-align: top;
+}
+
+ul{
+  padding-left: 350px;
+}
+
+.list-item{
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+  color: #ffc233;
+  font-size: 24px;
+}
+
+
+.button-small{  
+  vertical-align: top;
+  margin-left: 380px;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  background-color: #ff505f;
+  padding: 8px 20px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero{
+  padding-top: 150px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+h1{
+  text-align: center;
+  font-size: 75px;
+  color: #ffc233;
+}
+
+.button-large{
+  margin-top: 80px;
+  margin-left: 190px;
+  padding: 10px 24px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #ff505f;
+  border: none;
+}
+
+.bottom {
+  display: inline;
+}
+
+.bottom div{
+  padding-top: 150px;
+  float: right;
+}
