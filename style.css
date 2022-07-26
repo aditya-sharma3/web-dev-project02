@@ -17,28 +17,30 @@ body{
   padding: 30px 20px;
 }
 
-/*making all the div elements inside navbar class, element as inline*/
+/*making all the div elements inside navbar class, element as inline-block*/
 .navbar div{ 
   display: inline-block;        
   vertical-align: top;
 }
 
 ul{
-  padding-left: 330px;
+  padding-left: 280px;
 }
 
 .list-item{
-  display: inline-block;
+  display: inline;
   list-style-type: none;
   padding: 20px;
   color: #ffc233;
   font-size: 24px;
 }
 
+.small{
+  float: right;
+  padding-right: 50px;
+}
 
 .button-small{  
-  vertical-align: top;
-  margin-left: 400px;
   color: #ffffff;
   font-size: 20px;
   border: none;
